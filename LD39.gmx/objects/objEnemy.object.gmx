@@ -173,9 +173,12 @@ y += _vspeed;
 
 image_xscale = _direction;
 
-if (place_meeting(x,y,objPlayer))
+if (instance_exists(objPlayer))
+{
+if (place_meeting(x,y,objPlayer) &amp;&amp; !objPlayer.isDead)
 {
     scrDie();
+}
 }
 </string>
           </argument>

@@ -1,0 +1,7 @@
+1.1
+-Change window title
+-Disable fullscreen
+-Fix enemy player multiple collisions
+
+1.0
+-Game release
